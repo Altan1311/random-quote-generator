@@ -6,6 +6,7 @@
   border-radius: 0.25rem;
   padding: 40px 50px;
   box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.05);
+  transition: height 0.7s ease-in-out;
 }
 
 #text{
@@ -21,7 +22,7 @@
   text-align: right;
   margin-bottom: 1.8rem;
   font-weight: 300;
-  transition: all 0.7s ease-in-out;
+  transition: color 0.7s ease-in-out;
 }
 
 #footer{
@@ -43,7 +44,7 @@
   color: white;
   font-size: 0.9rem;
   cursor: pointer;
-  transition: all 0.7s ease-in-out;
+  transition: background-color 0.7s ease-in-out;
 }
 
 .hover{

@@ -65,7 +65,7 @@ function App() {
           <div id="social">
             <button type="button" className="button" style={{background: color}}>
               
-              <div className="hover">
+              <div className="hover" id="tweet-quote">
                 <FontAwesomeIcon icon={faTwitter} />
               </div>
             </button>
@@ -77,7 +77,7 @@ function App() {
           </div>
 
           <div>
-            <button type="button" className="button" onClick={newQuote} style={{background: color}}>
+            <button type="button" className="button" id="new-quote" onClick={newQuote} style={{background: color}}>
               <div className="hover">
                 New quote
               </div>
@@ -86,7 +86,7 @@ function App() {
         </div>
       </div>
       <div className="attribution">
-        by Altan Alaca
+        by <a href="https://github.com/Altan1311">Altan Alaca</a>
       </div>
     </>
   )

@@ -77,7 +77,6 @@ const colors = [
   "palegreen",
   "paleturquoise",
   "palevioletred",
-  "papayawhip",
   "peru",
   "pink",
   "plum",
